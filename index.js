@@ -16,17 +16,12 @@ function promptUser() {
             name: 'description',
             message: 'Please provide a brief description.',
         },
-        {
-            type: 'input',
-            name: 'title',
-            message: 'What is the title?',
-        },
     ]);
 }
 
-const generateReadme = (answers) =>
-    `
-# ${answers.tile} 
+function generateReadme(answers) {
+    return `
+# ${answers.title} 
 # Description
 ${answers.description}
 # Table of Contents
@@ -37,6 +32,7 @@ ${answers.description}
 # Tests
 # Questions
 `;
+}
 
 async function init() {
     console.log('Welcome to the README generator!');
@@ -45,10 +41,12 @@ async function init() {
 
         const newReadme = generateReadme(answers);
 
-        await writeFileAsync('README.md');
+        await writeFileAsync('README.md', newReadme);
 
         console.log('Successfully created README');
     } catch (err) {
         console.log(err);
     }
 }
+
+init();
