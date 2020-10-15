@@ -23,3 +23,17 @@ function promptUser() {
         },
     ]);
 }
+
+const generateReadme = (answers) =>
+    `
+# ${answers.tile} 
+# Description
+${answers.description}
+# Table of Contents
+# Installation
+# Usage
+# License
+# Contributing
+# Tests
+# Questions
+`;
