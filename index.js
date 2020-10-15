@@ -30,7 +30,7 @@ const promptUser = () =>
 
 const generateReadme = (answers) =>
     `
-    https://img.shields.io/github/license/${answers.ghUser}/${answers.repo}
+[![License](https://img.shields.io/github/license/${answers.ghUser}/${answers.repo})](https://img.shields.io/github/license/${answers.ghUser}/${answers.repo})
 # ${answers.title} 
 # Description
 ${answers.description}

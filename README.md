@@ -1,8 +1,8 @@
 
-    https://img.shields.io/github/license/markdcross/readme-generator
-# README Generator 
+[![License](https://img.shields.io/github/license/markdcross/readme-generator)](https://img.shields.io/github/license/markdcross/readme-generator)
+# Readme Gen 
 # Description
-Generates a README
+Gen Readme
 # Table of Contents
 # Installation
 # Usage
