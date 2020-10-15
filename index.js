@@ -64,6 +64,11 @@ const promptUser = () =>
         },
         {
             type: 'input',
+            name: 'test',
+            message: 'Please provide instructions for testing',
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'What is your email address?',
         },
