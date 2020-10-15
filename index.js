@@ -37,3 +37,18 @@ ${answers.description}
 # Tests
 # Questions
 `;
+
+async function init() {
+    console.log('Welcome to the README generator!');
+    try {
+        const answers = await promptUser();
+
+        const newReadme = generateReadme(answers);
+
+        await writeFileAsync('README.md');
+
+        console.log('Successfully created README');
+    } catch (err) {
+        console.log(err);
+    }
+}
