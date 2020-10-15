@@ -40,7 +40,12 @@ const promptUser = () =>
             type: 'input',
             name: 'screenshot',
             message:
-                'please provide the relative path for at least one screenshot',
+                'Please provide the relative path for at least one screenshot',
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: 'Please provide clear and concise usage information',
         },
         {
             type: 'list',
