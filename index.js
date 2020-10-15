@@ -8,6 +8,16 @@ const promptUser = () =>
     inquirer.prompt([
         {
             type: 'input',
+            name: 'ghUser',
+            message: 'What is your GitHub username?',
+        },
+        {
+            type: 'input',
+            name: 'repo',
+            message: 'What is the name of the repo?',
+        },
+        {
+            type: 'input',
             name: 'title',
             message: 'What is the title?',
         },
@@ -20,6 +30,7 @@ const promptUser = () =>
 
 const generateReadme = (answers) =>
     `
+    https://img.shields.io/github/license/${answers.ghUser}/${answers.repo}
 # ${answers.title} 
 # Description
 ${answers.description}
