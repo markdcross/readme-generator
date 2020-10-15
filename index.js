@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateReadme = require('./utils/generateReadme');
+const generateReadme = require('./Develop/generateReadme');
 
 // Promisify the writeFile function
 const writeFileAsync = util.promisify(fs.writeFile);
@@ -37,6 +37,12 @@ const promptUser = () =>
             default: 'npm i',
         },
         {
+            type: 'input',
+            name: 'screenshot',
+            message:
+                'please provide the relative path for at least one screenshot',
+        },
+        {
             type: 'list',
             name: 'license',
             message: 'What license would you like to use?',
@@ -50,6 +56,11 @@ const promptUser = () =>
                 'Other',
             ],
             default: 0,
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
         },
     ]);
 

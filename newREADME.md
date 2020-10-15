@@ -1,11 +1,13 @@
 
 [![License](https://img.shields.io/github/license/markdcross/readme-generator)](https://img.shields.io/github/license/markdcross/readme-generator)
-# Test readme 
+# README Generator 
 ### Description
-testing readme
+Generate some README files!
 ## Table of Contents
 1. [Installation](#Installation)
+Install NPM Packages via npm i
 2. [Usage](#Usage)
+![screenshot](./develop/samplescreen.png)
 3. [License](#License)
 4. [Contributing](#Contributing)
 5. [Tests](#Tests)
@@ -21,3 +23,6 @@ Licensed under the [MIT](https://github.com/markdcross/readme-generator/blob/mas
 
 ## Tests
 ## Questions
+Feel free to contact me with any questions or feedback:
+GitHub: [markdcross]https://github.com/markdcross
+Email: <markdcross@gmail.com>

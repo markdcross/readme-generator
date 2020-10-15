@@ -6,7 +6,9 @@ function generateReadme(answers) {
 ${answers.description}
 ## Table of Contents
 1. [Installation](#Installation)
+Install NPM Packages via ${answers.installation}
 2. [Usage](#Usage)
+![screenshot](${answers.screenshot})
 3. [License](#License)
 4. [Contributing](#Contributing)
 5. [Tests](#Tests)
@@ -22,6 +24,9 @@ Licensed under the [${answers.license}](https://github.com/${answers.ghUser}/${a
 
 ## Tests
 ## Questions
+Feel free to contact me with any questions or feedback:
+GitHub: [${answers.ghUser}]https://github.com/${answers.ghUser}
+Email: <${answers.email}>
 `;
 }
 module.exports = generateReadme;
