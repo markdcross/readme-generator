@@ -81,7 +81,7 @@ async function init() {
 
         const newReadme = generateReadme(answers);
 
-        await writeFileAsync('newREADME.md', newReadme);
+        await writeFileAsync(`${answers.repo}README.md`, newReadme);
 
         console.log('Successfully created README');
     } catch (err) {
