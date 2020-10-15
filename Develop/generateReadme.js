@@ -38,8 +38,8 @@ Licensed under the [${answers.license}](https://github.com/${answers.ghUser}/${a
 
 ## Questions
 Feel free to contact me with any questions or feedback:
-GitHub: [${answers.ghUser}](https://github.com/${answers.ghUser})
-Email: <${answers.email}>
+- GitHub: [${answers.ghUser}](https://github.com/${answers.ghUser})
+- Email: <${answers.email}>
 `;
 }
 module.exports = generateReadme;

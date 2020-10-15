@@ -23,7 +23,7 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'title',
-            message: 'What is the title?',
+            message: 'What is the title of your project?',
         },
         {
             type: 'input',
@@ -34,7 +34,7 @@ const promptUser = () =>
             type: 'input',
             name: 'installation',
             message: 'What are the installation instructions?',
-            default: 'npm i',
+            default: 'Install NPM Packages via `$ npm i`',
         },
         {
             type: 'input',
