@@ -16,7 +16,7 @@ ${answers.description}
 
 ## Installation
 
-Install NPM Packages via ${answers.installation}
+${answers.installation}
 
 ## Usage
 
