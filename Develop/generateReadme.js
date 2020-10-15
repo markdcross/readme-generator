@@ -2,8 +2,10 @@ function generateReadme(answers) {
     return `
 [![License](https://img.shields.io/github/license/${answers.ghUser}/${answers.repo})](https://img.shields.io/github/license/${answers.ghUser}/${answers.repo})
 # ${answers.title} 
-### Description
+
+## Description
 ${answers.description}
+
 ## Table of Contents
 1. [Installation](#Installation)
 2. [Usage](#Usage)
@@ -33,7 +35,6 @@ Licensed under the [${answers.license}](https://github.com/${answers.ghUser}/${a
 #### [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/)
 
 ## Tests
-
 
 ## Questions
 Feel free to contact me with any questions or feedback:
