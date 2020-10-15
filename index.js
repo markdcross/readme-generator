@@ -4,8 +4,8 @@ const util = require('util');
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
-function promptUser() {
-    return inquirer.prompt([
+const promptUser = () =>
+    inquirer.prompt([
         {
             type: 'input',
             name: 'title',
@@ -17,10 +17,9 @@ function promptUser() {
             message: 'Please provide a brief description.',
         },
     ]);
-}
 
-function generateReadme(answers) {
-    return `
+const generateReadme = (answers) =>
+    `
 # ${answers.title} 
 # Description
 ${answers.description}
@@ -32,7 +31,6 @@ ${answers.description}
 # Tests
 # Questions
 `;
-}
 
 async function init() {
     console.log('Welcome to the README generator!');
