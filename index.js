@@ -14,6 +14,7 @@ const promptUser = () =>
             type: 'input',
             name: 'ghUser',
             message: 'What is your GitHub username?',
+            default: 'markdcross',
         },
         {
             type: 'input',
@@ -45,7 +46,13 @@ const promptUser = () =>
         {
             type: 'input',
             name: 'usage',
-            message: 'Please provide clear and concise usage information',
+            message: 'Please provide usage information',
+        },
+        {
+            type: 'input',
+            name: 'contribution',
+            message:
+                'Please provide contribution guidelines (Contributor Covenant included by default)',
         },
         {
             type: 'list',
@@ -71,6 +78,7 @@ const promptUser = () =>
             type: 'input',
             name: 'email',
             message: 'What is your email address?',
+            default: 'markdcross@gmail.com',
         },
     ]);
 
