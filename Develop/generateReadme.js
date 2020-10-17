@@ -24,6 +24,8 @@ ${answers.installation}
 
 ${answers.usage}
 
+Use this AFTER creating your LICENSE.txt file.
+
 ## License
 
 Licensed under the [${answers.license}](https://github.com/${answers.ghUser}/${answers.repo}/blob/master/LICENSE.txt) license.
