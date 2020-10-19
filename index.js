@@ -57,7 +57,8 @@ const promptUser = () =>
         {
             type: 'list',
             name: 'license',
-            message: 'What license would you like to use?',
+            message:
+                'What license are you using (please create a LICENSE.txt file prior to generating your README)',
             choices: [
                 'MIT',
                 'GNU General Public License v3.0',

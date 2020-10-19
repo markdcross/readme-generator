@@ -24,8 +24,6 @@ ${answers.installation}
 
 ${answers.usage}
 
-Use this AFTER creating your LICENSE.txt file.
-
 ## License
 
 Licensed under the [${answers.license}](https://github.com/${answers.ghUser}/${answers.repo}/blob/master/LICENSE.txt) license.
@@ -45,4 +43,5 @@ Feel free to contact me with any questions or feedback:
 - Email: <${answers.email}>
 `;
 }
+
 module.exports = generateReadme;
