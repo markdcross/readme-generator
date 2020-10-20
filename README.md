@@ -18,8 +18,8 @@ This is a command-line application that dynamically generates a professional REA
 6. [Questions](#Questions)
 
 ## Installation
-
-Install npm packages via `$ npm i`
+1. Clone the repo
+2. Install npm packages via `$ npm i`
 
 ## Usage
 
