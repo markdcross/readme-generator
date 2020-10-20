@@ -3,7 +3,7 @@
 # README Generator 
 
 ## Description
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README. This is a command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer).
+This is a command-line application that command-line application that dynamically generates a professional README.md from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer)
 
 ## Table of Contents
 1. [Installation](#Installation)
@@ -19,17 +19,18 @@ Install NPM Packages via `$ npm i`
 
 ## Usage
 
-![screenshot](./Develop/questionsscreen.png)
+![screenshot](Develop\questionsscreen.png)
 
-WITHOUT BASH SCRIPTING: Navigate to the directory with the README Generator installed, and run `node index`. Answer the questions, and move the new README file into the appropriate directory/repo. WITH BASH SCRIPTING (Add scripting instructions): In the working directory of the project that needs a README, open the terminal and run `genrm`. Answer the questions, and then move (`mv` the new README to the appropriate repo/directory.
+<iframe src="https://drive.google.com/file/d/1PzLbBhCBBa059C5wZ47n52lQlTT0woAI/preview" width="640" height="480"></iframe>
 
-Use this AFTER creating your LICENSE.txt file.
+**WITHOUT BASH SCRIPTING:** Navigate to the directory with the README Generator installed, and run `node index`. Answer the questions, and move the new README file into the appropriate directory/repo. <br /> **WITH BASH SCRIPTING:** By creating a script in your bash profile (`nano ~/.bash_profile` from the command line), you’re able to chain commands together to easily access the functionality available in the README Generator. I used `alias genrm='cd ~/projects/homework/readme-generator && node index'` to assign the command `genrm` to the task of changing to the README Gen directory and runnigg the application. Once you’ve answered the questions, simply move (`mv`) the new README to the appropriate repo/directory. <br />**Note:** Use this application AFTER creating your LICENSE.txt file.
 
 ## License
 
 Licensed under the [MIT](https://github.com/markdcross/readme-generator/blob/master/LICENSE.txt) license.
 
 ## Contributing
+
 
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
 
