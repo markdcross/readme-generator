@@ -40,7 +40,7 @@ Navigate to the directory with the README Generator installed, and run `node ind
 By creaing a script in your bash profile (`nano ~/.bash_profile` from the command line), you’re able to chain commands together to easily access the functionality available in the README Generator. I used `alias genrm='cd ~/projects/homework/readme-generator && node index'` to assign the command `genrm` to the task of changing to the README Gen directory and running the application. Once you’ve answered the questions, simply move (`mv`) the new README to the appropriate repo/directory.
 
 **PLEASE CLICK THE SCREENSHOT BELOW FOR A "HOW TO USE (with BASH scripting)" VIDEO:**<br />
-[![Usage video](./Develop/assets/questionsscreen.png)](https://drive.google.com/file/d/1XuToW4OQXmtFBxlrapY6TtXyg-WJctup/view)
+[![Usage video](./Develop/assets/questionsbashscreen.png)](https://drive.google.com/file/d/1XuToW4OQXmtFBxlrapY6TtXyg-WJctup/view)
 [Usage with scripting video](https://drive.google.com/file/d/1XuToW4OQXmtFBxlrapY6TtXyg-WJctup/view)
 
 **Note:** <br /> Use this application AFTER creating your LICENSE.txt file.
