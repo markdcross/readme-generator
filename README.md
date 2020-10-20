@@ -24,8 +24,8 @@ Install npm packages via `$ npm i`
 ## Usage
 
 **PLEASE CLICK THE SCREENSHOT BELOW FOR A "HOW TO USE" VIDEO:**<br />
-[![Usage video](./Develop/assets/questionsscreen.png)]("https://drive.google.com/file/d/1PzLbBhCBBa059C5wZ47n52lQlTT0woAI/preview")
-[Usage video]("https://drive.google.com/file/d/1PzLbBhCBBa059C5wZ47n52lQlTT0woAI/preview")
+[![Usage video](./Develop/assets/questionsscreen.png)](https://drive.google.com/file/d/1PzLbBhCBBa059C5wZ47n52lQlTT0woAI/preview)
+[Usage video](https://drive.google.com/file/d/1PzLbBhCBBa059C5wZ47n52lQlTT0woAI/preview)
 
 **The new README is saved into the current working directory:**<br />
 ![Before](./Develop/assets/beforescreen.png)
