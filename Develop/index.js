@@ -2,7 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require('util');
-const generateReadme = require('./Develop/generateReadme');
+const generateReadme = require('./generateReadme');
 
 // Promisify the writeFile function
 const writeFileAsync = util.promisify(fs.writeFile);
