@@ -23,7 +23,8 @@ This is a command-line application that dynamically generates a professional REA
 
 ## Installation
 1. Clone the repo
-2. Install npm packages via `$ npm i`
+2. CD into Develop folder
+3. Install npm packages via `$ npm i`
 
 ## Usage
 
